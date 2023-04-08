@@ -1,0 +1,47 @@
+/* Setting the elements on the page to apply animations */
+body{
+    background-image: url(../images/2352.jpg),url(../images/5603526_1876.jpg);
+    background-repeat: no-repeat,repeat;
+}
+.rocket-element{
+    height: 240px;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    transform: rotateZ(45deg);
+}
+.cody{
+    height: 150px;
+    position: absolute;
+    top: 320px;
+    right: 100px;
+}
+.neumorphism3{
+    height: 100px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    box-shadow: inset -3px -3px 8px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
+    position: relative;
+    top : 100px;
+    left: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(79, 201, 246);
+}
+.neumorphism3::after{
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 60%;
+    border-radius: 50px;
+    box-shadow:-3px -3px 8px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+
+}
