@@ -1,9 +1,10 @@
 
     #home{
-        background-image: url("C:/Users/agr20/OneDrive/Desktop/index/assets/background.jpg");
+        background: linear-gradient(35deg,#1d75f0f7,#5b0784);
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        position: relative;
+        /* position: relative; */
         justify-content: center;
+        min-height: 600px;
     }
 
     .main-container {
@@ -25,7 +26,7 @@
     }
     
     span{
-        color: turquoise;
+        color: aqua;
     }
 
 
